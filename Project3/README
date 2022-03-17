@@ -1,0 +1,61 @@
+(a) Yufei Zhao
+(b) I did everything in project3.lisp, which is the file containing my code, by myself. 
+(c) I implement the following functions. 
+List Functions: append, reverse, map, addtoend
+Set Functions: member, insert, intersection, union
+Math Functions: absolute, factorial, greatest common divisor (gcd), least common multiple (lcm)
+Required Functions: perfect, abundant, deficient
+
+To test the functions, I give an index to each function. append-1; reverse-2; map-3; addtoend-4; member-5; insert-6; intersection-7; union-8; absolute-9; factorial-10; gcd-11; lcm-12; perfect-13; abundant-14; deficient-15. And each time, you just enter the index of the function that you want to test. And I will prompt you to enter related inputs. You en do this continuously. If you want to quit, you can enter 0. 
+
+You should put this project3.lisp file in the abcl folder which can be downloaded through the way taught in the pdf document provided by Professor Ferguson and then follow the instructions provided in same pdf document. 
+The very bottom is what I do on my computer. Hope it can help. My abcl folder is in my Downloads. You may need some adjustments if you put the folder somewhere else. 
+
+A special note: I assume for all functions, you enter legal inputs. For example, you should enter numbers, not letters, as inputs for add3, prime, etc. 
+
+EXTRA CREDIT
+I implemented the following functions:
+subset, primep, nth-prime, nth-fibo, right-tri, cardinality, superset, difference, merge, indexof, removeall, nub, symdiff, filter, powerset. 
+
+Corresponding index: subset-16; primep-17; nth-prime-18; nth-fibo-19; right-tri-20; cardinality-21; superset-22; difference-23; merge-24; indexof-25; removeall-26; nub-27; symdiff-28; filter-29; powerset-30. 
+
+Sample: 
+RainydeMacBook-Pro:~ rainyzhao$ cd Downloads/abcl-bin-1.7.1
+RainydeMacBook-Pro:abcl-bin-1.7.1 rainyzhao$ java -jar abcl.jar
+Armed Bear Common Lisp 1.7.1
+Java 13.0.1 Oracle Corporation
+Java HotSpot(TM) 64-Bit Server VM
+Low-level initialization completed in 0.348 seconds.
+Startup completed in 1.344 seconds.
+Type ":help" for a list of available commands.
+CL-USER(1): (load "project3")
+
+"Enter the index of function that you want to test (0 to quit): " 
+2
+"" 
+"Test REVERSE function:" 
+"Enter list" 
+(9 8 s 0)
+"list finished" 
+"Output" 
+(0 S 8 9) 
+"Enter the index of function that you want to test (0 to quit): " 
+8
+"" 
+"Test UNION function:" 
+"Enter set1 (List)" 
+(u q s t)
+"set1" 
+"Enter set2 (List)" 
+(p z a u)
+"set2" 
+"Output" 
+(Q S T P Z A U) 
+"Enter the index of function that you want to test (0 to quit): " 
+0
+"" 
+"Test finished" 
+T
+ 
+
+
